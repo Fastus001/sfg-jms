@@ -16,8 +16,8 @@ public class SfgJmsApplication {
         .setSecurityEnabled(false)
         .addAcceptorConfiguration("inv","vm://0"));
 
-
         server.start();
+
         SpringApplication.run(SfgJmsApplication.class, args);
     }
 
